@@ -1,0 +1,72 @@
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(13, 11, 11, 0.95); /* Adds a black overlay */
+    text-align: center;
+    color: white;
+    margin: 3rem;
+    border-radius: 15px;
+}
+
+.menu-title {
+    font-size: 3em;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding-top: 0.5rem;
+
+}
+
+.items-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 2rem;
+}
+
+.menu-item {
+    background-color: rgba(181, 168, 168, 0.754);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.item-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.item-price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.add-button {
+    background-color: #064015;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+
+.add-button:hover {
+    background-color: whitesmoke;
+    color: #064015;
+}
